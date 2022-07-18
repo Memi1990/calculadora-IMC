@@ -39,7 +39,7 @@
             android:min="100"/>
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/tvSeekbarAlt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -82,7 +82,7 @@
             android:min="0"/>
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/tvSeekbarPeso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -102,7 +102,7 @@
         app:srcCompat="@drawable/imc" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/tvResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
