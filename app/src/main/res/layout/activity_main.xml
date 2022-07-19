@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llPrincipal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -32,11 +33,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:thumbTint="@color/primaryColor"
-            android:progressTint="@color/primaryColor"
-            android:progress="150"
             android:max="200"
-            android:min="100"/>
+            android:min="100"
+            android:progress="150"
+            android:progressTint="@color/primaryColor"
+            android:thumbTint="@color/primaryColor" />
 
         <TextView
             android:id="@+id/tvSeekbarAlt"
@@ -75,11 +76,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:thumbTint="@color/primaryColor"
-            android:progressTint="@color/primaryColor"
-            android:progress="75"
             android:max="150"
-            android:min="0"/>
+            android:min="0"
+            android:progress="75"
+            android:progressTint="@color/primaryColor"
+            android:thumbTint="@color/primaryColor" />
 
         <TextView
             android:id="@+id/tvSeekbarPeso"
@@ -97,8 +98,8 @@
         android:id="@+id/imageView"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:layout_weight="1"
         android:layout_gravity="center"
+        android:layout_weight="1"
         app:srcCompat="@drawable/imc" />
 
     <TextView
@@ -107,10 +108,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_weight="1"
+        android:fontFamily="@font/alata"
         android:gravity="center_horizontal"
         android:text="TextView"
         android:textSize="36sp"
-        android:textStyle="bold"
-        android:fontFamily="@font/alata" />
+        android:textStyle="bold" />
 
 </LinearLayout>
