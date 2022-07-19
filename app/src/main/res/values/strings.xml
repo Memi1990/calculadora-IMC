@@ -2,7 +2,7 @@
     <string name="app_name">Calculadora IMC</string>
     <string name="alt">Altura</string>
     <string name="peso">Peso</string>
-    <string name="min_max">100/200</string>
+    <string name="min_max">150/200</string>
     <string name="min_max1">0/150</string>
     <string name="ver">Ver Tabla</string>
     <string name="severa">DELGADEZ SEVERA</string>
