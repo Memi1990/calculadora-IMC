@@ -22,4 +22,6 @@
     <string name="media2">35.00 – 39.99: OBESIDAD MODERADA</string>
     <string name="morbida2">Más de 40.00: OBESIDAD MÓRBIDA</string>
     <string name="tabla">TABLA IMC</string>
+    <string name="deFault">33.33</string>
+    <string name="aceptar">ACEPTAR</string>
 </resources>

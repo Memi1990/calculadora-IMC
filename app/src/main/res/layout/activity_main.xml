@@ -110,7 +110,7 @@
         android:layout_weight="1"
         android:fontFamily="@font/alata"
         android:gravity="center_horizontal"
-        android:text="TextView"
+        android:text="@string/deFault"
         android:textSize="36sp"
         android:textStyle="bold" />
 
