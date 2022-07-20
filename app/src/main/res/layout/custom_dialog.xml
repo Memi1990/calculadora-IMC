@@ -53,11 +53,12 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
-                    tools:srcCompat="@drawable/darkblue" />
+                    tools:srcCompat="@drawable/darkblue"
+                    android:contentDescription="TODO" />
 
                 <TextView
                     android:id="@+id/tvSevera"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="20dp"
                     android:layout_weight="1"
@@ -79,11 +80,12 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
-                    app:srcCompat="@drawable/blue" />
+                    app:srcCompat="@drawable/blue"
+                    android:contentDescription="TODO" />
 
                 <TextView
                     android:id="@+id/tvDelModerada"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="20dp"
                     android:layout_weight="1"
@@ -105,11 +107,13 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
-                    app:srcCompat="@drawable/turque" />
+                    app:srcCompat="@drawable/turque"
+                    tools:ignore="ImageContrastCheck"
+                    android:contentDescription="TODO" />
 
                 <TextView
                     android:id="@+id/tvDelLeve"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="20dp"
                     android:layout_weight="1"
@@ -131,11 +135,12 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
-                    app:srcCompat="@drawable/darkgreen" />
+                    app:srcCompat="@drawable/darkgreen"
+                    android:contentDescription="TODO" />
 
                 <TextView
                     android:id="@+id/tvNormal"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="20dp"
                     android:layout_weight="1"
@@ -157,11 +162,13 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
-                    app:srcCompat="@drawable/green" />
+                    app:srcCompat="@drawable/green"
+                    tools:ignore="ImageContrastCheck"
+                    android:contentDescription="TODO" />
 
                 <TextView
                     android:id="@+id/tvPre"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="20dp"
                     android:layout_weight="1"
@@ -183,11 +190,13 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
-                    app:srcCompat="@drawable/yellow" />
+                    app:srcCompat="@drawable/yellow"
+                    tools:ignore="ImageContrastCheck"
+                    android:contentDescription="TODO" />
 
                 <TextView
                     android:id="@+id/tvObLeve"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="20dp"
                     android:layout_weight="1"
@@ -209,11 +218,12 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
-                    app:srcCompat="@drawable/orange" />
+                    app:srcCompat="@drawable/orange"
+                    android:contentDescription="TODO" />
 
                 <TextView
                     android:id="@+id/tvObModerada"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="20dp"
                     android:layout_weight="1"
@@ -235,11 +245,12 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
-                    app:srcCompat="@drawable/red" />
+                    app:srcCompat="@drawable/red"
+                    android:contentDescription="TODO" />
 
                 <TextView
                     android:id="@+id/tvMor"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="20dp"
                     android:layout_weight="1"
@@ -257,11 +268,13 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="30dp"
                 android:layout_marginBottom="10dp"
+                android:fontFamily="@font/alata"
                 android:gravity="end"
                 android:text="@string/aceptar"
                 android:textAlignment="gravity"
                 android:textColor="@color/primaryColor"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                tools:ignore="TextContrastCheck" />
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
